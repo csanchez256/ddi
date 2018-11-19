@@ -1,0 +1,103 @@
+  	  /****************************
+  	  * Christopher Sanchez; 2018
+  	  * The css styles for social 
+  	  * media buttons
+  	  ****************************/
+
+/* Syntax for css */
+/* selector { property:value; property: value;} */
+
+
+/* NOTE: this is re-used code from my other website */
+
+
+/* This creates a centered horizontal navigation bar */
+/* It also fixes the social media icon to the bottom of the page */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+
+  /*round the corners */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+
+li {
+	display: inline
+}
+
+/* This formats the horizontal navigation bar */
+li a {
+	display: inline-block;
+	color:white;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+
+/* makes the icons gray when you hover the curser */
+li a:hover {
+	background-color: #A9A9A9;
+}
+
+
+/* the strategy here is to have a default "unordered list" class with
+* common attributes, then anything else you want to add, make a class
+* that inherits from the default ul
+*/
+
+ul.bottomPage {
+ /* position: fixed; --this makes it float on the bottom */
+  top: 90vh; z-index:99;
+  padding: 0 0 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+
+/* for social media buttons */
+a.fa {
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+
+	border:1px solid #ddd; /*add border to the buttons */
+	box-shadow: 0 1px 1px #999;
+	padding: 0px;
+	text-decoration: none;
+	text-align:center;
+	color: #fff;
+	font-size: 25px;
+	font-weight: normal;
+	line-height: 2em; /* means "emphemeral unit" which is relative to the current font size. */
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius:1px; /*change to 10 to round corners */
+}
+
+/* media query to resize social media buttons on smaller screens */
+@media screen and (max-width: 600px) {
+	a.fa {
+			width: 40px;
+			height: 33px;
+			font-size: 15px;
+	}
+}
+
+a.fa:hover {
+	opacity: 0.7;
+}
+
+a.fa-youtube {
+	/* background: #bb0000; */
+	color: white;
+}

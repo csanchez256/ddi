@@ -1,0 +1,96 @@
+  	  /****************************
+  	  * Christopher Sanchez; 2017
+  	  * The css styles for fonts
+  	  ****************************/
+
+
+.randomQuotes {
+ 	font-family: 'Fredericka the Great', cursive;
+ 	font-size: 40px;
+ 	text-align: center;
+ 	vertical-align: middle;
+ 	color: white;
+}
+
+
+/* media query to resize text on smaller screens */
+@media screen and (max-width: 600px) {
+	.randomQuotes {
+		font-size: 20px;
+	}
+}
+
+.AmaticSC {
+ 	font-family: 'Amatic SC', cursive;
+ 	font-size: 15px;
+ 	/* text-align: center; */
+ 	vertical-align: middle;
+ 	color: white;
+}
+
+.infoText {
+	font-family: "Courier New", Courier, monospace;
+	text-align: center;
+	line-height: 500px; /* this centers the text vertically */
+ 	font-size: 30px;
+ 	color: white;
+}
+
+.homePageText {
+	font-family: "Courier New", Courier, monospace;
+	text-align: center;
+	line-height: 500px; /* this centers the text vertically */
+ 	font-size: 20px;
+ 	color: white;
+}
+
+.followMe {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;  
+  font-size: 30px;
+  color: white;
+}
+
+@media screen and (max-width: 360px) {
+	.infoText {
+		font-size: 20px;
+	}
+	.followMe{
+		font-size: 20px;
+	}
+}
+@media screen and (max-height: 600px) {
+	.infoText {
+		line-height: 250px;
+	}
+	.projectText {
+		line-height: 250px;
+	}
+}
+
+
+
+.aboutMeFont {
+ 	font-family: "Courier New", Courier, monospace;
+ 	font-size: 15px;
+ 	color: white;
+
+    width: 500px;
+    border: 1px solid white;
+    padding: 25px;
+    margin: 25px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media screen and (max-width: 600px) {
+	.aboutMeFont {
+		font-size: 12px;
+		width: 300px;
+		border: none;
+	}
+}
+

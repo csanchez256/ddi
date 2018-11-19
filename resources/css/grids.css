@@ -1,0 +1,27 @@
+
+
+
+.wrapper{
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: 100px 100px 100px;
+}
+
+
+/* This means we will start on the fourth column line and end on the 4th column line*/
+/* Source: https://medium.freecodecamp.org/learn-css-grid-in-5-minutes-f582e87b1228 */
+/* https://css-tricks.com/snippets/css/complete-guide-grid/ */
+.item1 {
+	grid-column-start: 1; /* alternately you can use 'grid-column: 1 / 4;'*/
+	grid-column-end: 4;
+}
+
+.item3 {
+	grid-row-start: 2;
+	grid-row-end: 4;
+}
+
+.item4 {
+	grid-column-start: 2;
+	grid-column-end: 4;
+}
