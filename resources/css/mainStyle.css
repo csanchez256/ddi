@@ -173,7 +173,7 @@
    .img-circle {
         border-radius: 50%;
         max-width: 100%; /* was 25% with auto resize */
-        height: 200px;
+        height: 220px;
         width: 200px;
         display: block;
         margin-left: auto;
