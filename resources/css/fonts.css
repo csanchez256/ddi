@@ -33,7 +33,7 @@
 	text-align: center;
 	line-height: 500px; /* this centers the text vertically */
  	font-size: 30px;
- 	color: white;
+ 	color: black;
 }
 
 .homePageText {
@@ -73,7 +73,7 @@
 .aboutMeFont {
  	font-family: "Courier New", Courier, monospace;
  	font-size: 15px;
- 	color: white;
+ 	color: black;
 
     width: 500px;
     border: 1px solid white;
