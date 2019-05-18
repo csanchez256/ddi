@@ -73,6 +73,7 @@
   	  /* Style the topnav menu links */
   	  .topnav a {
           font-family: "Courier New", Courier, monospace;
+          font-weight: bold;
   	      float: left;
   	      display: block;
   	      color: #0a0a0a;
