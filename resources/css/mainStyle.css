@@ -170,12 +170,12 @@
     }
    }
 
-    /* This is for the picture on the front page */
+    /* This is for the picture on the 'about me' page */
    .img-circle {
         border-radius: 50%;
         max-width: 100%; /* was 25% with auto resize */
         height: 220px;
-        width: 200px;
+        width: 220px;
         display: block;
         margin-left: auto;
         margin-right: auto;
