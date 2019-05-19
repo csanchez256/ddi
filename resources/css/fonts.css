@@ -71,11 +71,11 @@
 
 
 .aboutMeFont {
- 	font-family: "Courier New", Courier, monospace;
- 	font-size: 15px;
- 	color: black;
+ 	font-family: adobe-calson-pro, serif;
+ 	font-size: 23px;
+ 	color: rgb(51,51,51);
 
-    width: 500px;
+    width: 600px;
     border: 1px solid white;
     padding: 25px;
     margin: 25px;
