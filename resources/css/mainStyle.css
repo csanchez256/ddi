@@ -3,7 +3,7 @@
   	  * The css styles for the home
   	  * page go in this file
   	  ****************************/
-      * {
+      *:before, *:after {
           box-sizing: border-box;
       }
 
@@ -12,6 +12,7 @@
   	      /*background-image: url("../images/elPasoMural2.jpg");*/
   	      /* background-color: MediumSeaGreen; */
           height: 100%;
+          position: relative;
 
   	  }
 
@@ -28,6 +29,14 @@
         background-repeat: no-repeat;
         background-size: cover; 
         overflow: scroll;
+
+        /* this makes the footer information stay on the bottom 
+           no-matter what size the view-port is */
+        min-height: 100vh; /* will cover the 100% of viewport */
+        overflow: hidden;
+        display: block;
+        position: relative;
+        padding-bottom: 100px; /* height of your footer */
 
  
 
@@ -125,13 +134,9 @@
   	     sticky footer since it's fixed on the
   	     bottom */
   	  .footer {
-  	  	  position: relative; /* or change to fixed */
-  	  	  left: 0;
-  	  	  bottom: 0;
-  	  	  width: 100%;
-  	    
-  	      padding: 10px;
-  	      text-align: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
   	  }
 
       .followMe {
