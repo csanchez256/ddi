@@ -10,9 +10,6 @@ body {
 
  .mySlides {
 	 display: none;
-	 position: center;
-	 width:  520px;
-	 height: 520px;
  }
 
  img {
