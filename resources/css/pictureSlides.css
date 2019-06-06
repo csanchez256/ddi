@@ -18,19 +18,18 @@ body {
 
  /* Slideshow container */
  .slideshow-container {
- 	/*max-width: 520px;
+
+ 	max-width: 720px;
  	position: relative;
-	margin:auto; */
+	margin:auto; 
 
-	 
-
-	position: relative;
-	width: 400px;
-	height: 400px;
+	/* position: relative;
+	width: 600px;
+	height: 600px;
 	background-position: 100% 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin: auto; 
+	margin: auto; */
 
  }
 
@@ -43,8 +42,6 @@ body {
 	width: auto;
 	padding: 15px;
 	margin-top: -22px;
-	margin-left: -25px;  /*This makes the arrows move left/right */
-	margin-right: -25px;
 	color: black;
 	/*font-weight: bold;*/
 	font-size: 30px;
